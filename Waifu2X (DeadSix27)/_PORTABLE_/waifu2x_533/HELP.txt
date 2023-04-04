@@ -1,0 +1,114 @@
+
+USAGE: 
+
+   waifu2x-converter-cpp.exe  [--list-supported-formats]
+                              [--list-opencv-formats] [-l] [-f <png,jpg
+                              ,webp,...>] [-c <0-9>] [-q <0-101>]
+                              [--block-size <integer>] [--disable-gpu]
+                              [--force-OpenCL] [-p <integer>] [-j
+                              <integer>] [--model-dir <string>]
+                              [--scale-ratio <double>] [--noise-level <0|1
+                              |2|3>] [-m <noise|scale|noise-scale>] [-v <0
+                              |1|2|3|4>] [-s] [-t <bool>] [-g <bool>] [-a
+                              <bool>] [-r <bool>] [-o <string>] -i <string>
+                              [--] [--version] [-h]
+
+
+Where: 
+
+   --list-supported-formats
+     dump currently supported format list
+
+   --list-opencv-formats
+      (deprecated. Use --list-supported-formats) dump opencv supported
+     format list
+
+   -l,  --list-processor
+     dump processor list
+
+   -f <png,jpg,webp,...>,  --output-format <png,jpg,webp,...>
+     The format used when running in recursive/folder mode
+
+     See --list-supported-formats for a list of supported
+     formats/extensions.
+
+   -c <0-9>,  --png-compression <0-9>
+     Set PNG compression level (0-9), 9 = Max compression (slowest &
+     smallest)
+
+   -q <0-101>,  --image-quality <0-101>
+     JPEG & WebP Compression quality (0-101, 0 being smallest size and
+     lowest quality), use 101 for lossless WebP
+
+   --block-size <integer>
+     block size
+
+   --disable-gpu
+     disable GPU
+
+   --force-OpenCL
+     force to use OpenCL on Intel Platform
+
+   -p <integer>,  --processor <integer>
+     set target processor
+
+   -j <integer>,  --jobs <integer>
+     number of threads launching at the same time
+
+   --model-dir <string>
+     path to custom model directory (don't append last / )
+
+   --scale-ratio <double>
+     custom scale ratio
+
+   --noise-level <0|1|2|3>
+     noise reduction level
+
+   -m <noise|scale|noise-scale>,  --mode <noise|scale|noise-scale>
+     image processing mode
+
+   -v <0|1|2|3|4>,  --log-level <0|1|2|3|4>
+     Set log level
+
+   -s,  --silent
+     Enable silent mode. (same as --log-level 1)
+
+   -t <bool>,  --tta <bool>
+     Enable Test-Time Augmentation mode. (0 or 1)
+
+   -g <bool>,  --generate-subdir <bool>
+     Generate sub folder when recursive directory is enabled.
+
+     Set 1 to enable this. (0 or 1)
+
+   -a <bool>,  --auto-naming <bool>
+     Add postfix to output name when output path is not specified.
+
+     Set 0 to disable this. (0 or 1)
+
+   -r <bool>,  --recursive-directory <bool>
+     Search recursively through directories to find more images to
+     process.
+
+     If this is set to 0 it will only check in the directory specified if
+     the input is a directory instead of an image. (0 or 1)
+
+   -o <string>,  --output <string>
+     path to output image file or directory  (you should use the full path)
+
+   -i <string>,  --input <string>
+     (required)  path to input image file or directory (you should use the
+     full path)
+
+   --,  --ignore_rest
+     Ignores the rest of the labeled arguments following this flag.
+
+   --version
+     Displays version information and exits.
+
+   -h,  --help
+     Displays usage information and exits.
+
+
+   waifu2x OpenCV Fork - https://github.com/DeadSix27/waifu2x-converter-cpp
+
