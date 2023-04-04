@@ -9,7 +9,7 @@
 ```
 C:\_PORTABLE_\waifu2x_533
 ```
-### Если Waifu2X (DeadSix27) уже установлен:
+### Если Waifu2X (DeadSix27) уже установлена:
 Скачать файлы из репозитория и расположить в одной папке с "waifu2x-converter-cpp.exe":
 ![w2x_installed](https://user-images.githubusercontent.com/19572158/229820214-7a5a9d4a-3ac4-4094-a26f-4dc1b2a4fc2d.png)
 Путь к исполняемому файлу Waifu2X должен выглядеть следующим образом:
