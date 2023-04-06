@@ -7,7 +7,7 @@
 # Установка Waifu2X Neuro
 ### Если Waifu2X (DeadSix27) не установлена:
 Скачать сборку Waifu2X Neuro и распаковать в корень системного разделa.\
-**[Ссылка на скачивание Waifu2X Neuro](https://github.com/Shedou/Neuro/releases/tag/W2XNv1)**\
+**[Ссылка на скачивание Waifu2X Neuro](https://github.com/Shedou/Neuro/releases/tag/W2XNv2)**\
 Путь к исполняемому файлу Waifu2X (waifu2x-converter-cpp.exe) должен выглядеть следующим образом:
 ```
 C:\_PORTABLE_\waifu2x_533
