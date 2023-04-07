@@ -3,8 +3,9 @@
 # Neuro
 Здесь можно найти разнообразные полезные скрипты и файлы для работы с такими инструментами как Waifu2X и Real ESRGAN.
 # Инструкции
-Смотреть в каталоге конкретной сборки:\
-![Screenshot_cats](https://user-images.githubusercontent.com/19572158/230602032-76fe5938-88ea-4e9b-b8a4-c3005e3227c7.png)
+Смотреть здесь:\
+[Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)\
+[Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
 # Где скачать
 В разделе Releases:\
 [Готовые сборки (All In One)](https://github.com/Shedou/Neuro/releases)
