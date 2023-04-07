@@ -8,7 +8,7 @@
 Для работы необходима видеокарта и драйвер поддерживающие Vulkan API.
 # Установка Real ESRGAN NCNN Neuro
 Скачать сборку Real ESRGAN NCNN Neuro и распаковать в корень системного разделa.\
-**[Ссылка на скачивание Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/releases/)**\
+**[Ссылка на скачивание Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/releases/tag/esrgan_v1)**\
 Путь к исполняемому файлу Real ESRGAN NCNN Neuro (realesrgan-ncnn-vulkan.exe) должен выглядеть следующим образом:
 ```
 C:\_PORTABLE_\realesrgan_ncnn_neuro
