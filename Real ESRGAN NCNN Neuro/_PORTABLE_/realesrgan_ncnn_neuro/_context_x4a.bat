@@ -1,0 +1,1 @@
+C:\_PORTABLE_\realesrgan_ncnn_neuro\realesrgan-ncnn-vulkan.exe -m C:\_PORTABLE_\realesrgan_ncnn_neuro\models -i %1 -o %~n1-x4a.png -n realesrgan-x4plus-anime
