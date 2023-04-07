@@ -4,8 +4,8 @@
 # Сборка Waifu2X Neuro
 ## Пожалуйста, воздержитесь от использования любых файлов и информации из репозитория если вы не готовы взять ответственность за любые возможные и невозможные последствия!
 # Системные требования
-Windows 7+
-VC Redists 2015 и новее.
+Windows 7+\
+VC Redists 2015 и новее.\
 (https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)
 
 # Установка Waifu2X Neuro
