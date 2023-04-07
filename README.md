@@ -6,6 +6,3 @@
 Смотреть здесь:\
 [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)\
 [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
-# Где скачать
-В разделе Releases:\
-[Готовые сборки (All In One)](https://github.com/Shedou/Neuro/releases)
