@@ -13,12 +13,13 @@
 ```
 C:\_PORTABLE_\realesrgan_ncnn_neuro
 ```
-![Screenshot_44](https://user-images.githubusercontent.com/19572158/230571049-c20d69f3-ac9d-4e34-8776-e8bf7cb4f2a3.png)\
+![Screenshot_path](https://user-images.githubusercontent.com/19572158/230571049-c20d69f3-ac9d-4e34-8776-e8bf7cb4f2a3.png)\
 Или как вариант, если вы осознаёте что делаете, и можете переписать скрипты самостоятельно, можно скачать файлы из репозитория и расположить в одной папке с "realesrgan-ncnn-vulkan.exe".
 # Использование
 Провести слияние файла "_context_sub.reg" с реестром Windows, после чего будет доступно контекстном меню для работы с изображениями, REG файл при необходимости исправить по своему усмотрениию.
-Чтобы удалить из контекстного меню Real ESRGAN NCNN, достаточно использовать "_context_sub_delete.reg", однако, если вы вносили изменения в файл "_context_sub.reg", значит вы понимаете что делаете, и что файл "_context_sub_delete.reg" тоже нужно будет изменить.
+![Screenshot_reg](https://user-images.githubusercontent.com/19572158/230574751-4f254afb-7236-4960-8ba7-3ef82d0aedf0.png)
+Чтобы удалить из контекстного меню Real ESRGAN NCNN, достаточно использовать "_context_sub_delete.reg", однако, если вы вносили изменения в файл "_context_sub.reg", значит вы понимаете что делаете.
 # Benchmark
 Перетащить изображение на один из BAT файлов предназначенных для тестирования, и смотреть на результат:\
-![Screenshot_47~](https://user-images.githubusercontent.com/19572158/230573731-509b2538-6578-4bdf-a4d4-7a03707c3f90.jpg)\
+![Screenshot_benchmark](https://user-images.githubusercontent.com/19572158/230573731-509b2538-6578-4bdf-a4d4-7a03707c3f90.jpg)\
 Важно заметить, в результате указано общее затраченное время на работу, в том числе на сохранение результата, потому результат никогда не будет показывать абсолютно чистую производительность видеокарты.
