@@ -1,11 +1,9 @@
-# Real-ESRGAN-ncnn-vulkan (xinntao)
-### Внимание! Репозиторий [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
-### Внимание! Репозиторий [xinntao/Real-ESRGAN-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan).
-### Real ESRGAN NCNN Neuro это не более чем "сборка", её цель упрощение работы над уже существующим инструментом с помощью вспомогательных "скриптов" в виде BAT/REG файлов.
 # Сборка Real ESRGAN NCNN Neuro
 ## Пожалуйста, воздержитесь от использования любых файлов и информации из репозитория если вы не готовы взять ответственность за любые возможные и невозможные последствия!
-Текущая сборка (v1) подходит для Windows 7 и новее.\
-Для работы необходима видеокарта и драйвер поддерживающие Vulkan API.
+### Real ESRGAN NCNN Neuro это сборка, её цель упрощение работы над уже существующим инструментом с помощью вспомогательных "скриптов" в виде BAT/REG файлов.
+# Системные требования
+Windows 7+\
+Видеокарта с поддержкой Vulkan API.
 # Установка Real ESRGAN NCNN Neuro
 Скачать сборку Real ESRGAN NCNN Neuro и распаковать в корень системного разделa.\
 **[Ссылка на скачивание Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/releases/tag/esrgan_v1)**\
@@ -23,3 +21,6 @@ C:\_PORTABLE_\realesrgan_ncnn_neuro
 Перетащить изображение на один из BAT файлов предназначенных для тестирования и смотреть на результат:\
 ![Screenshot_benchmark](https://user-images.githubusercontent.com/19572158/230573731-509b2538-6578-4bdf-a4d4-7a03707c3f90.jpg)\
 Важно заметить, в результате указано общее затраченное время на работу, в том числе на сохранение обработанного файла, потому результат никогда не будет показывать абсолютно чистую производительность видеокарты.
+# Real-ESRGAN-ncnn-vulkan (xinntao)
+### Репозиторий [xinntao/Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+### Репозиторий [xinntao/Real-ESRGAN-ncnn-vulkan](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan).
