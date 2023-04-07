@@ -11,7 +11,7 @@
 ```
 C:\_PORTABLE_\waifu2x_533_neuro
 ```
-![Screenshot_path_w](https://user-images.githubusercontent.com/19572158/230600897-b0cf2e37-6fe4-475b-b69a-acde64f4beeb.png)
+![Screenshot_path_w](https://user-images.githubusercontent.com/19572158/230600897-b0cf2e37-6fe4-475b-b69a-acde64f4beeb.png)\
 Или как вариант, если вы осознаёте что делаете, можно скачать файлы из репозитория и расположить в одной папке с "waifu2x-converter-cpp.exe".
 # Использование
 Провести слияние файла "_context_sub.reg" с реестром Windows, после чего будет доступно контекстное меню для работы с изображениями.\
