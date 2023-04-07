@@ -16,7 +16,7 @@ C:\_PORTABLE_\realesrgan_ncnn_neuro
 ![Screenshot_path](https://user-images.githubusercontent.com/19572158/230571049-c20d69f3-ac9d-4e34-8776-e8bf7cb4f2a3.png)\
 Или как вариант, если вы осознаёте что делаете, можно скачать файлы из репозитория и расположить в одной папке с "realesrgan-ncnn-vulkan.exe".
 # Использование
-Провести слияние файла "_context_sub.reg" с реестром Windows, после чего будет доступно контекстном меню для работы с изображениями.\
+Провести слияние файла "_context_sub.reg" с реестром Windows, после чего будет доступно контекстное меню для работы с изображениями.\
 ![Screenshot_reg](https://user-images.githubusercontent.com/19572158/230574751-4f254afb-7236-4960-8ba7-3ef82d0aedf0.png)\
 Чтобы удалить из контекстного меню Real ESRGAN NCNN, достаточно использовать "_context_sub_delete.reg", однако, если вы вносили изменения в файл "_context_sub.reg", значит вы понимаете что делаете.
 # Benchmark
