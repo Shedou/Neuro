@@ -16,7 +16,7 @@ C:\_PORTABLE_\realesrgan_ncnn_neuro
 # Использование
 Провести слияние файла "_context_sub.reg" с реестром Windows, после чего будет доступно контекстное меню для работы с изображениями.\
 ![Screenshot_reg](https://user-images.githubusercontent.com/19572158/230574751-4f254afb-7236-4960-8ba7-3ef82d0aedf0.png)\
-Чтобы удалить из контекстного меню Real ESRGAN NCNN, достаточно использовать "_context_sub_delete.reg", однако, если вы вносили изменения в файл "_context_sub.reg", значит вы понимаете что делаете.
+Чтобы удалить из контекстного меню Real ESRGAN NCNN, достаточно использовать "_context_sub_delete.reg".
 # Benchmark
 Перетащить изображение на один из BAT файлов предназначенных для тестирования и смотреть на результат:\
 ![Screenshot_benchmark](https://user-images.githubusercontent.com/19572158/230573731-509b2538-6578-4bdf-a4d4-7a03707c3f90.jpg)\
