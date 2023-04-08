@@ -13,6 +13,8 @@
 [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)\
 [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
 # Waifu2X Neuro
-Пример работы Waifu2X:
+Пример работы Waifu2X:\
+![Screenshot_6](https://user-images.githubusercontent.com/19572158/230739956-b74d4b76-4968-4c84-a95d-1e72afe178b1.png)
 # Real ESRGAN NCNN Neuro
-Пример работы Real ESRGAN ncnn Vulkan:
+Пример работы Real ESRGAN ncnn Vulkan:\
+![Screenshot_7](https://user-images.githubusercontent.com/19572158/230739961-62da59d8-9b22-49de-b989-1bd273231f8a.png)
