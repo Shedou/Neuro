@@ -7,14 +7,14 @@
 	ЦП: 64 разрядный процессор, 2 ядра.\
 	ОЗУ: 16 ГБ и больше.\
 	Видеокарта: GeForce GTX 700 серии и новее (см. список поддерживаемых видеокарт в файле "ReadMe! Neuro.txt").\
-	Видеопамять: 2 ГБ и больше.\
+	Видеопамять: 2 ГБ и больше.
 - Системные требования (Режим работы без видеокарты):\
 	ОС: 64 разрядная Microsoft Windows 7 / 10 / 11.\
 	ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
-	ОЗУ: 24 ГБ и больше.\
+	ОЗУ: 24 ГБ и больше.
 # Установка Stable Diffusion web UI Neuro
 Скачать сборку Stable Diffusion web UI Neuro и распаковать.\
-**[Ссылка на скачивание Stable Diffusion web UI Neuro](https://github.com/Shedou/Neuro/releases/tag/esrgan_v2)**\
+**Ссылка на скачивание Stable Diffusion web UI Neuro (пока нет)**
 # Использование
 Запустить используя:\
 Start WebUI.bat --- Обычный запуск.\
