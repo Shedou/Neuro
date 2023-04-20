@@ -13,7 +13,7 @@
 	ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
 	ОЗУ: 24 ГБ и больше.
 # Установка Stable Diffusion web UI Neuro
-Скачать сборку Stable Diffusion web UI Neuro и распаковать.\
+Скачать сборку Stable Diffusion web UI Neuro и распаковать архиватором [7-Zip](https://7-zip.org/).\
 **Ссылка на скачивание Stable Diffusion web UI Neuro (пока нет)**
 # Использование
 Запустить используя:\
