@@ -19,21 +19,17 @@
 Видеокарта: GeForce GTX 1070 или лучше.\
 Видеопамять: 8 ГБ и больше.
 # Установка Stable Diffusion web UI Neuro
-Скачать сборку Stable Diffusion web UI Neuro и распаковать архиватором [7-Zip](https://7-zip.org/).\
-**Ссылка на скачивание Stable Diffusion web UI Neuro (пока нет)**
+### Скачать сборку Stable Diffusion web UI Neuro и распаковать архиватором [7-Zip](https://7-zip.org/).
+### **[Ссылка на скачивание Stable Diffusion web UI Neuro](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)**
 # Использование
 Запустить используя:\
 Start WebUI.bat --- Обычный запуск.\
 Start WebUI CPU.bat --- Использовать ЦП для работы (Режим работы без видеокарты).\
 Описание остальных файлов смотреть в файле "ReadMe! Neuro.txt".
-# Benchmark
-Перетащить изображение на один из BAT файлов предназначенных для тестирования и смотреть на результат:\
-![Screenshot_benchmark](https://user-images.githubusercontent.com/19572158/230573731-509b2538-6578-4bdf-a4d4-7a03707c3f90.jpg)\
-Важно заметить, в результате указано общее затраченное время на работу, в том числе на сохранение обработанного файла, потому результат никогда не будет показывать абсолютно чистую производительность видеокарты.
 # Сборка основана на Stable Diffusion web UI
 ### Репозиторий [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 # Блог Overclockers
-[overclockers.ru/blog/Hard-Workshop](https://overclockers.ru/blog/Hard-Workshop)
+### [overclockers.ru/blog/Hard-Workshop](https://overclockers.ru/blog/Hard-Workshop)
 # Прочее
 Python:\
 https://github.com/adang1345/PythonWin7
