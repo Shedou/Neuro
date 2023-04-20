@@ -35,9 +35,10 @@ https://github.com/adang1345/PythonWin7
 ffmpeg-6.0-full_build-shared:\
 https://www.gyan.dev/ffmpeg/builds/
 
-Дополнения в составе сборки:\
-- multidiffusion-upscaler-for-automatic1111\
-- https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
+**Дополнения в составе сборки:**
 
-- sd-extension-steps-animation\
-- https://github.com/vladmandic/sd-extension-steps-animation
+multidiffusion-upscaler-for-automatic1111\
+https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
+
+sd-extension-steps-animation\
+https://github.com/vladmandic/sd-extension-steps-animation
