@@ -5,8 +5,8 @@
 Для получения подробной информации перейдите в раздел конкретной сборки.
 # Сборки
 ### Смотреть здесь:
-### [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
-### [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)
-### [Stable Diffusion web UI Neuro](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1)
+### - [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
+### - [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)
+### - [Stable Diffusion web UI Neuro](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1)
 # Other licenses
 Any third party are subject to their own licenses.
