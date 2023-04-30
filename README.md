@@ -7,6 +7,7 @@
 ### Смотреть здесь:
 ### - [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
 ### - [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)
-### - [Stable Diffusion web UI Neuro](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1)
+### - [Stable Diffusion web UI Neuro (NVIDIA / CPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1)
+### - Stable Diffusion web UI DirectML Neuro (AMD / NVIDIA / CPU - Windows 10/11)
 # Other licenses
 Any third party are subject to their own licenses.
