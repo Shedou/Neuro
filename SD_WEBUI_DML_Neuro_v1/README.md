@@ -13,8 +13,7 @@
 ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
 ОЗУ: 64 ГБ.
 # Установка Stable Diffusion web UI DirectML Neuro
-### Скачать сборку Stable Diffusion web UI DirectML Neuro и распаковать архиватором [7-Zip](https://7-zip.org/).
-### **Ссылка на скачивание Stable Diffusion web UI Neuro**
+### [Скачать сборку Stable Diffusion web UI DirectML Neuro](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v1) и распаковать архиватором [7-Zip](https://7-zip.org/).
 # Использование
 Запустить используя:\
 Start WebUI.bat --- Обычный запуск.\
