@@ -7,8 +7,9 @@
 
 ![1](https://user-images.githubusercontent.com/19572158/236633827-146a775c-e14d-4398-bb9d-a6850c009a0a.jpg)
 
-Примеры работы:
+Пример работы:
 
+![127_~](https://user-images.githubusercontent.com/19572158/236641804-92a48971-a3ae-4780-81dc-dcfa2895077f.jpg)
 
 # Системные требования
 Операционная система: Windows 7 SP1 и новее.\
