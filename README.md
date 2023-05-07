@@ -4,7 +4,7 @@
 # Сборки Neuro [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/total.svg)](https://github.com/Shedou/Neuro/releases)
 Для получения подробной информации перейдите в раздел конкретной сборки:
 ### - [Waifu2X Neuro (GPU/CPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro)
-- Waifu2X поможет в обработке изображений, основное назначение это увеличение изображений и подавление шума разной степени при помощи нейронных сетей, наиболее полезно при чистке изображений от артефактов сжатия JPEG.
+- Waifu2X поможет в обработке изображений, основное назначение это увеличение изображений и подавление шума разной степени при помощи нейронных сетей, наиболее полезно при чистке изображений от артефактов сжатия JPEG, использует OpenCL для работы, что позволяет использовать даже очень старые видеокарты, например GeForce 9800GT или GeForce GTX 570, а в случае если нет видеокарты поддерживающей OpenCL API, тогда может быть задействован центральный процессор.
 ### - [Real ESRGAN NCNN Neuro (GPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro)
 - Real ESRGAN по своей сути является свободным аналогом коммерческого тяжеловесного приложения Topaz Gigapixel AI, основное назначение это увеличение изображений при помощи нейронных сетей, а благодаря использованию для работы Vulkan API производительность всегда на высшем уровне насколько позволяет видеокарта.
 ### - [Stable Diffusion web UI Neuro (NVIDIA/CPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1)
