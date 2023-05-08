@@ -20,7 +20,8 @@
 
 </details>
 
-### - [Waifu2X Neuro (GPU/CPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/W2XNv2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/W2XNv2)
+### - [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/W2XNv2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/W2XNv2)
+\- GPU/CPU - OpenCL API - Windows 7/10/11
 - Waifu2X поможет в обработке изображений, основное назначение это увеличение изображений и подавление шума разной степени при помощи нейронных сетей, наиболее полезно при чистке изображений от артефактов сжатия JPEG.
 
 <details>
@@ -30,7 +31,8 @@
 
 </details>
 
-### - [Real ESRGAN NCNN Neuro (GPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/esrgan_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/esrgan_v2)
+### - [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/esrgan_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/esrgan_v2)
+\- GPU - Vulkan API - Windows 7/10/11
 - Real ESRGAN по своей сути является свободным аналогом коммерческого тяжеловесного приложения Topaz Gigapixel AI, основное назначение это увеличение изображений при помощи нейронных сетей, а благодаря использованию Vulkan API производительность всегда на высшем уровне насколько позволяет видеокарта.
 
 <details>
@@ -40,7 +42,8 @@
 
 </details>
 
-### - [Stable Diffusion web UI Neuro (NVIDIA/CPU - Windows 7/10/11)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
+### - [Stable Diffusion web UI Neuro](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_v1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
+\- NVIDIA/CPU - CUDA - Windows 7/10/11
 - Не умеете рисовать, но очень хочется? Позвольте это сделать приложению Stable Diffusion! Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели... Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
 
 <details>
@@ -50,7 +53,8 @@
 
 </details>
 
-### - [Stable Diffusion web UI DirectML Neuro (AMD/NVIDIA/CPU - Windows 10/11)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_DML_Neuro_v1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_DML_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v1)
+### - [Stable Diffusion web UI DirectML Neuro](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_DML_Neuro_v1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_DML_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v1)
+\- AMD/NVIDIA/CPU - DirectML - Windows 10/11
 - DirectML вариант приложения Stable Diffusion, подходит для работы с современными видеокартами AMD, хотя работает медленнее варианта для NVIDIA, но это лучше, чем ничего.
 
 <details>
