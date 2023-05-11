@@ -10,7 +10,7 @@
 
 Пример работы:
 
-![127___~](https://github.com/Shedou/Neuro/assets/19572158/b279196d-a34f-407c-8f13-2b18a964e90b)
+![127___~](https://github.com/Shedou/Neuro/assets/19572158/8b22c262-285c-4db3-895e-32d01a65daa7)
 
 # Системные требования
 Windows 7+\
