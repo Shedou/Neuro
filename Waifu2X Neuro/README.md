@@ -10,6 +10,8 @@
 
 Пример работы:
 
+![127___~](https://github.com/Shedou/Neuro/assets/19572158/b279196d-a34f-407c-8f13-2b18a964e90b)
+
 # Системные требования
 Windows 7+\
 VC Redists 2015 и новее.\
