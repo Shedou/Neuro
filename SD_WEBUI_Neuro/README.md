@@ -36,8 +36,8 @@
 ### [Скачать сборку Stable Diffusion web UI Neuro (v2)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v2) и распаковать архиватором [7-Zip](https://7-zip.org/).
 # Использование
 Запустить используя:\
-Start WebUI.bat --- Обычный запуск.\
-Start WebUI CPU.bat --- Использовать ЦП для работы (Режим работы без видеокарты).\
+Start WebUI CUDA.bat --- Обычный запуск.\
+Start WebUI CUDA CPU.bat --- Использовать ЦП для работы (Режим работы без видеокарты).\
 Описание остальных файлов смотреть в файле "ReadMe! Neuro.txt".
 # Сборка основана на Stable Diffusion web UI
 ### Репозиторий [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
