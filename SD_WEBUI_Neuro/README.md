@@ -57,7 +57,9 @@
 ### Репозиторий [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 # Блог Overclockers
 ### [overclockers.ru/blog/Hard-Workshop](https://overclockers.ru/blog/Hard-Workshop)
-# Прочие ресурсы
+# Предыдущие версии
+### [Stable Diffusion web UI Neuro v1](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
+# Прочее
 Модель ChiMix_SF1-NED-AOM3_1 основана на AOM3-r34-SF1-pruned, neverendingDreamNED_bakedVae и возможно AOM3_orangemixs, пропорции неизвестны. Ресурсы для поиска дополнительных моделей: https://huggingface.co/models, https://civitai.com/ и т.п.
 
 Python:\
