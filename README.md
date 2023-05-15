@@ -53,7 +53,7 @@
 
 </details>
 
-### - [Stable Diffusion web UI DirectML Neuro (v2)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_DML_Neuro_v1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_DML_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v2)
+### - [Stable Diffusion web UI DirectML Neuro (v2)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_DML_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_DML_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v2)
 \- AMD/NVIDIA/CPU - DirectML - Windows 10/11
 - DirectML вариант приложения Stable Diffusion, подходит для работы с современными видеокартами AMD, хотя работает медленнее варианта для NVIDIA, но это лучше, чем ничего.
 
