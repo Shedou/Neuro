@@ -9,7 +9,7 @@ set GIT_SSL_NO_VERIFY=true
 set PYTHON=
 set GIT=
 set VENV_DIR=
-set COMMANDLINE_ARGS=--medvram --opt-sub-quad-attention --opt-split-attention --opt-split-attention-v1 --disable-nan-check --always-batch-cond-uncond --sub-quad-q-chunk-size 256 --sub-quad-kv-chunk-size 256 --sub-quad-chunk-threshold 75 --autolaunch
+set COMMANDLINE_ARGS=--lowvram --opt-sub-quad-attention --opt-split-attention --opt-split-attention-v1 --disable-nan-check --always-batch-cond-uncond --sub-quad-q-chunk-size 256 --sub-quad-kv-chunk-size 256 --sub-quad-chunk-threshold 75
 
 : Fix venv.
 copy /y NUL "%~dp0sd-webui-dml\venv\pyvenv.cfg"
