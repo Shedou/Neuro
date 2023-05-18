@@ -14,9 +14,11 @@
 
 ### Примеры работы:
 
-`Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1 `Size:` 1280x720 `CFG scale:` 7 `Steps:` 100
-|`Promt:` snow weather, two lane road, forest, mountains<br />`Negative prompt:` low quality<br />`Sampler:` UniPC `Seed:` 3158812105|`Promt:` desert, mountains, graceful girl sitting on a chair, long blue detailed dress, anime<br />`Negative prompt:` low quality, water<br />`Sampler:` DPM2 a `Seed:` 2684654605|`Promt:` truck, city<br />`Negative prompt:` low quality<br />`Sampler:` UniPC `Seed:` 3898112984|
+`Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1 `Size:` 1280x720 `CFG scale:` 7 `Steps:` 100\
+`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `VRAM Used:` ~6.2GB
+|`Promt:` snow weather, two lane road, forest, mountains<br />`Negative prompt:` low quality|`Promt:` desert, mountains, graceful girl sitting on a chair, long blue detailed dress, anime<br />`Negative prompt:` low quality, water|`Promt:` truck, city<br />`Negative prompt:` low quality|
 |:---|:---|:---|
+|`Sampler:` UniPC `Seed:` 3158812105<br />Time Taken: 5m 45s.|`Sampler:` DPM2 a `Seed:` 2684654605<br />Time Taken: 11m 17s.|`Sampler:` UniPC `Seed:` 3898112984<br />Time Taken: 5m 39s.|
 |![1_](https://github.com/Shedou/Neuro/assets/19572158/b3a79ea3-9fb8-489f-a4df-6fc3de0c7459)|![6_](https://github.com/Shedou/Neuro/assets/19572158/ed4e64de-0d41-4c5c-8844-2f7a46e7863d)|![5_](https://github.com/Shedou/Neuro/assets/19572158/f1e7dd15-5725-4377-88da-5541c0dab7ec)|
 
 # Системные требования
