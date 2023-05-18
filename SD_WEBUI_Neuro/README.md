@@ -12,9 +12,12 @@
 - По умолчанию используется cudart v11.4 вместо 11.7, как следствие были упрощены BAT файлы для запуска сборки, при необходимости можно изменить версию cudart используя предназначенные для этого BAT файлы в папке Redist.
 - Переименованы BAT файлы для запуска, добавлено слово CUDA в имя файла, это в будущем поможет отличить CUDA и DirectML версии сборок при размещении в одной папке.
 
-### Пример работы:
+### Примеры работы:
 
-Будет добавлен позже.
+`Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1 `Size:` 1280x720 `CFG scale:` 7 `Steps:` 100
+|`Promt:` snow weather, two lane road, forest, mountains<br />`Negative prompt:` low quality<br />`Sampler:` UniPC `Seed:` 3158812105||`Promt:` truck, city<br />`Negative prompt:` low quality<br />`Sampler:` UniPC `Seed:` 3898112984|
+|:---|:---|:---|
+|![1_](https://github.com/Shedou/Neuro/assets/19572158/b3a79ea3-9fb8-489f-a4df-6fc3de0c7459)||![5_](https://github.com/Shedou/Neuro/assets/19572158/f1e7dd15-5725-4377-88da-5541c0dab7ec)|
 
 # Системные требования
 <details>
