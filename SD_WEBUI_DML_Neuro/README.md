@@ -8,8 +8,14 @@
 
 DirectML версия сборки способна работать на видеокартах AMD/NVIDIA и возможно Intel.
 
-### Пример работы:
-Будет добавлен позже.
+### Примеры работы:
+
+`Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1 `Size:` 768x512 `Steps:` 80\
+`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `VRAM Used:` ~7GB.
+|`Promt:` room with antique curtains, table and chair, flowers on pot, city background on window, realistic<br />`Negative prompt:` low quality, bad geometry|`Promt:` (realistic, photo-realistic:1.3), frosted glass bottle, grass<br />`Negative prompt:` low quality, bad geometry|`Promt:` girl, princess dress, photography, castle on background<br />`Negative prompt:` low quality, bad anatomy, bad hands, fused fingers, open mouth|
+|:---|:---|:---|
+|`Sampler:` Euler a `Seed:` 3211360489 `CFG scale:` 7 `Time Taken:` 2m 5s.|`Sampler:` DPM2 a `Seed:` 920613217 `CFG scale:` 14 `Time Taken:` 3m 58s.|`Sampler:` DPM++ 2S a Karras `Seed:` 3679921889 `CFG scale:` 14 `Time Taken:` 3m 59s.|
+|![1](https://github.com/Shedou/Neuro/assets/19572158/4e3470a3-2ae0-45fa-a014-8b60e912728d)|![6](https://github.com/Shedou/Neuro/assets/19572158/9512d6e7-cd93-4d5c-b6f4-11203a885be2)|![5](https://github.com/Shedou/Neuro/assets/19572158/f15511c7-aa61-49e5-ae48-c43a78cee02e)|
 
 # Установка Stable Diffusion web UI DirectML Neuro
 ### [Скачать сборку Stable Diffusion web UI DirectML Neuro (v2)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v2) и распаковать архиватором [7-Zip](https://7-zip.org/).
