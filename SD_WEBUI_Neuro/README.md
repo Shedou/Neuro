@@ -46,6 +46,17 @@ ___
 |`Sampler:` UniPC `Seed:` 3158812105<br />Time Taken: 5m 45s.|`Sampler:` DPM2 a `Seed:` 2684654605<br />Time Taken: 11m 17s.|`Sampler:` UniPC `Seed:` 3898112984<br />Time Taken: 5m 39s.|
 |![1_](https://github.com/Shedou/Neuro/assets/19572158/b3a79ea3-9fb8-489f-a4df-6fc3de0c7459)|![6_](https://github.com/Shedou/Neuro/assets/19572158/ed4e64de-0d41-4c5c-8844-2f7a46e7863d)|![5_](https://github.com/Shedou/Neuro/assets/19572158/f1e7dd15-5725-4377-88da-5541c0dab7ec)|
 
+## Установка Stable Diffusion web UI Neuro
+### [Скачать сборку Stable Diffusion web UI Neuro (v2)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v2) и распаковать архиватором [7-Zip](https://7-zip.org/).
+
+<details>
+<summary>Предыдущие версии</summary>
+
+___
+[Stable Diffusion web UI Neuro v1](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
+___
+</details>
+
 ## Системные требования
 <details>
 <summary>Минимальные системные требования</summary>
@@ -76,17 +87,6 @@ ___
 ОЗУ: 64 ГБ.\
 Видеокарта: GeForce GTX 1070 или лучше.\
 Видеопамять: 8 ГБ и больше.
-___
-</details>
-
-## Установка Stable Diffusion web UI Neuro
-### [Скачать сборку Stable Diffusion web UI Neuro (v2)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v2) и распаковать архиватором [7-Zip](https://7-zip.org/).
-
-<details>
-<summary>Предыдущие версии</summary>
-
-___
-[Stable Diffusion web UI Neuro v1](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
 ___
 </details>
 
