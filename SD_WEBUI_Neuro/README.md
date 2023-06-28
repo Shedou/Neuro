@@ -7,7 +7,7 @@
 Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели...
 Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
 
-### Примеры работы:
+### Примеры работы (устаревшие, SD WebUI Neuro V2, позже будут обновлены):
 
 `Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1 `Size:` 1280x720 `CFG scale:` 7 `Steps:` 100\
 `GPU:` MSI GeForce GTX 1070 AERO OC 8GB `VRAM Used:` ~6.2GB
@@ -17,16 +17,20 @@
 |![1_](https://github.com/Shedou/Neuro/assets/19572158/b3a79ea3-9fb8-489f-a4df-6fc3de0c7459)|![6_](https://github.com/Shedou/Neuro/assets/19572158/ed4e64de-0d41-4c5c-8844-2f7a46e7863d)|![5_](https://github.com/Shedou/Neuro/assets/19572158/f1e7dd15-5725-4377-88da-5541c0dab7ec)|
 
 ## Установка Stable Diffusion web UI Neuro
-### [Скачать сборку Stable Diffusion web UI Neuro (v2)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v2) и распаковать архиватором [7-Zip](https://7-zip.org/).
+### [Скачать сборку Stable Diffusion web UI Neuro (v3)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3) и распаковать архиватором [7-Zip](https://7-zip.org/).
 
 <details>
-  <summary>Что нового в версии v2:</summary>
+  <summary>Что нового в версии v3:</summary>
   
-  - В сборку встроен браузер Mozilla Firefox: Теперь сборка не зависит от наличия браузера в системе пользователя.
-  
-  - По умолчанию использован cudart v11.4 вместо v 11.7: Это позволило упростить BAT файлы для запуска сборки и сохранить совместимость с Windows 7/10/11 одновременно. При необходимости возможна смена версии cudart с помощью BAT файлов специально предназначенных для этого в папке Redist.
-  
-  - Переименованы BAT файлы: Добавлено слово CUDA в имя BAT файлов, это в будущем поможет отличить CUDA и DirectML версии сборок при размещении в одной папке.
+ - За основу взят WebUI версии 1.3.2 (2023-06-05).
+
+ - Добавллено расширение "stable-diffusion-webui-images-browser".
+
+ - xformers (для видеокарт GTX 1000 серии и новее).
+
+ - В файле "webui.py" добавлен код необходимый для автоматического запуска Firefox (строка #11, строка #415-423).
+
+ - Проведена чистка, удалены файлы и папки которые не использовались явным образом при работе сборки (подробности см. в файле ReadMe).
 
 </details>
 
@@ -34,6 +38,8 @@
   <summary>Предыдущие версии</summary>
   
   ___
+  [Stable Diffusion web UI Neuro v2](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v2)
+  
   [Stable Diffusion web UI Neuro v1](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
   ___
 </details>
@@ -74,11 +80,13 @@
 ## Использование
 - **Start WebUI CUDA.bat** - Обычный запуск.
 - Start WebUI CUDA CPU.bat - Использовать ЦП для работы (Режим работы без видеокарты).
+- **Start WebUI CUDA XFormers.bat** - Использовать xformers, экономит память видеокарты, может повысить производительность, для видеокарт начиная с GTX 1000 серии.
 
 <details>
   <summary>Другие варианты запуска</summary>
   
   ___
+  - Start WebUI CUDA Force XFormers.bat - Принудительно использовать xformers, не факт что это нужно.
   - WebUI CUDA LowVRAM.bat
   
   Режим низкого потребления памяти на видеокарте, полезно для видеокарт с 2-3 ГБ памяти, снижает скорость работы.
@@ -125,3 +133,6 @@ https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
 
 sd-extension-steps-animation\
 https://github.com/vladmandic/sd-extension-steps-animation
+
+stable-diffusion-webui-images-browser
+https://github.com/AlUlkesh/stable-diffusion-webui-images-browser/
