@@ -7,14 +7,43 @@
 Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели...
 Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
 
-### Примеры работы (устаревшие, SD WebUI Neuro V2, позже будут обновлены):
+### Примеры работы (SD WebUI Neuro V3):
 
-`Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1 `Size:` 1280x720 `CFG scale:` 7 `Steps:` 100\
-`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `VRAM Used:` ~6.2GB
-|`Promt:` snow weather, two lane road, forest, mountains<br />`Negative prompt:` low quality|`Promt:` desert, mountains, graceful girl sitting on a chair, long blue detailed dress, anime<br />`Negative prompt:` low quality, water|`Promt:` truck, city<br />`Negative prompt:` low quality|
+Общие для всех изображений параметры генерации:\
+`Size:` 640x360 `Hires upscale:` 2x (1280x720) `Hires upscaler:` R-ESRGAN 2x+\
+`CFG scale:` 6 `Steps:` 40 `RNG:` CPU `Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1\
+`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `Optimizations:` xformers
+
+| Girl portrait | Heavy thunderstorm | Old wooden log house |
 |:---|:---|:---|
-|`Sampler:` UniPC `Seed:` 3158812105<br />Time Taken: 5m 45s.|`Sampler:` DPM2 a `Seed:` 2684654605<br />Time Taken: 11m 17s.|`Sampler:` UniPC `Seed:` 3898112984<br />Time Taken: 5m 39s.|
-|![1_](https://github.com/Shedou/Neuro/assets/19572158/b3a79ea3-9fb8-489f-a4df-6fc3de0c7459)|![6_](https://github.com/Shedou/Neuro/assets/19572158/ed4e64de-0d41-4c5c-8844-2f7a46e7863d)|![5_](https://github.com/Shedou/Neuro/assets/19572158/f1e7dd15-5725-4377-88da-5541c0dab7ec)|
+| ![00020-2491313082](https://github.com/Shedou/Neuro/assets/19572158/bd75ce4e-f446-45e8-aa70-e7a23dfd1e5b) | ![00027-985896506](https://github.com/Shedou/Neuro/assets/19572158/2687dc1e-c5ae-47c8-97f1-4bdeb1d3cc46) | ![00043-136011147](https://github.com/Shedou/Neuro/assets/19572158/48516bc7-83f5-49c2-b5ff-cc508898c34c) |
+
+<details>
+  <summary>Параметры генерации "Girl portrait"</summary>
+  
+  `Promt:` girl, green eyes, blonde fluffy hairs, realistic, detailed, volumetric lighting, photo realistic, portrait\
+  `Negative promt` low quality, worst quality, cross-eyed, bad proportions, fused fingers, bad eyeballs, artifacts, grayscale, bad geometry, bad face, error\
+  `Seed:` 2491313082 `Denoising strength:` 0.7 `Sampler:` DPM2 a Karras
+  
+</details>
+
+<details>
+  <summary>Параметры генерации "Heavy thunderstorm"</summary>
+  
+  `Promt:` heavy thunderstorm, wide panorama, realistic, detailed, volumetric lighting, photo realistic\
+  `Negative promt` low quality, worst quality, artifacts, grayscale, bad geometry, error\
+  `Seed:` 985896506 `Denoising strength:` 0.45 `Sampler:` Heun
+  
+</details>
+
+<details>
+  <summary>Параметры генерации "Old wooden log house"</summary>
+  
+  `Promt:` old wooden log house, winter, realistic, detailed, volumetric lighting, photo realistic\
+  `Negative promt` low quality, worst quality, bad geometry, error\
+  `Seed:` 136011147 `Denoising strength:` 0.45 `Sampler:` Euler
+  
+</details>
 
 ## Установка Stable Diffusion web UI Neuro
 ### [Скачать сборку Stable Diffusion web UI Neuro (v3)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3) и распаковать архиватором [7-Zip](https://7-zip.org/).
@@ -46,9 +75,10 @@
 
 ## Системные требования
 <details>
-  <summary>Минимальные системные требования</summary>
+  <summary>Системные требования</summary>
   
   ___
+  Минимальные системные требования:\
   ОС: 64 разрядная Microsoft Windows 7* / 10 / 11.\
   ЦП: 64 разрядный процессор, 2 ядра.\
   ОЗУ: 16 ГБ и больше.\
@@ -56,27 +86,22 @@
   Видеопамять: 2 ГБ и больше.\
   \* - Подробности см. в файле ReadMe.
   ___
-</details>
-<details>
-  <summary>Системные требования (Режим работы без видеокарты)</summary>
   
-  ___
+  Системные требования (Режим работы без видеокарты):\
   ОС: 64 разрядная Microsoft Windows 7* / 10 / 11.\
   ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
   ОЗУ: 24 ГБ и больше.\
   \* - Подробности см. в файле ReadMe.
   ___
-</details>
-<details>
-  <summary>Рекомендуемые системные требования</summary>
   
-  ___
+  Рекомендуемые системные требования:\
   ОС: 64 разрядная Microsoft Windows 10 / 11.\
   ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
   ОЗУ: 64 ГБ.\
   Видеокарта: GeForce GTX 1070 или лучше.\
   Видеопамять: 8 ГБ и больше.
   ___
+  
 </details>
 
 ## Использование
