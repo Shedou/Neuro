@@ -64,5 +64,23 @@
 
 </details>
 
+### - [roop Neuro](https://github.com/Shedou/Neuro/tree/main/roop_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/roop_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/roop_v1)
+\- AMD/NVIDIA/CPU - DirectML - Windows 10/11
+- Предварительно скомпилированная, портативная сборка приложения roop, данная нейронная сеть позволяет заменять лица на видеозаписях таким образом создавая дипфейки (Deep Fakes), практической пользы я не вижу от данной нейронной сети, но повеселиться в кругу друзей вполне возможно.
+
+- Оригинальное описание:\
+Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+
+<details>
+  <summary>English translation</summary>
+
+- A pre-compiled, portable build of the roop application, this neural network allows you to replace faces in videos, thus creating Deep Fakes, I don’t see any practical benefit from this neural network, but it’s quite possible to have fun with friends.
+  
+- Original description:\
+Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+
+</details>
+
+
 # Other licenses
 Any third party are subject to their own licenses.
