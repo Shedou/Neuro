@@ -1,0 +1,56 @@
+
+https://github.com/s0md3v/roop/wiki/2.-Acceleration
+Some things have been fixed.
+
+
+------ CUDA Execution Provider (Nvidia) ------
+Install CUDA Toolkit 11.8
+https://developer.nvidia.com/cuda-11-8-0-download-archive
+
+Install dependencies:
+pip uninstall onnxruntime onnxruntime-gpu
+pip install onnxruntime-gpu==1.15.1
+
+Usage in case the provider is available:
+python run.py --execution-provider cuda
+
+
+------ CoreML Execution Provider (Apple Silicon) ------
+
+Install dependencies:
+pip uninstall onnxruntime onnxruntime-silicon
+pip install onnxruntime-silicon==1.13.1
+
+Usage in case the provider is available:
+python run.py --execution-provider coreml
+
+
+------ CoreML Execution Provider (Apple Legacy) ------
+
+Install dependencies:
+pip uninstall onnxruntime onnxruntime-coreml
+pip install onnxruntime-coreml==1.13.1
+
+Usage in case the provider is available:
+python run.py --execution-provider coreml
+
+
+------ DirectML Execution Provider (Windows) ------
+
+Install dependencies:
+pip uninstall onnxruntime onnxruntime-directml
+pip install onnxruntime-directml==1.15.1
+
+Usage in case the provider is available:
+python run.py --execution-provider dml
+
+
+------ OpenVINO™ Execution Provider (Intel) ------
+Install dependencies:
+pip uninstall onnxruntime onnxruntime-openvino
+pip install onnxruntime-openvino==1.15.0
+
+Usage in case the provider is available:
+python run.py --execution-provider openvino
+
+
