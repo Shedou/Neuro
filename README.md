@@ -20,28 +20,6 @@
 
 </details>
 
-### - [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/W2XNv2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/W2XNv2)
-\- GPU/CPU - OpenCL API - Windows 7/10/11
-- Waifu2X поможет в обработке изображений, основное назначение это увеличение изображений и подавление шума разной степени при помощи нейронных сетей, наиболее полезно при чистке изображений от артефактов сжатия JPEG.
-
-<details>
-  <summary>English translation</summary>
-
-- Waifu2X will help in image processing, the main purpose is to upscale images and suppress noise of varying strength using neural networks, it is most useful when cleaning images from JPEG compression artifacts.
-
-</details>
-
-### - [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/esrgan_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/esrgan_v2)
-\- GPU - Vulkan API - Windows 7/10/11
-- Real ESRGAN по своей сути является свободным аналогом коммерческого тяжеловесного приложения Topaz Gigapixel AI, основное назначение это увеличение изображений при помощи нейронных сетей, а благодаря использованию Vulkan API производительность всегда на высшем уровне насколько позволяет видеокарта.
-
-<details>
-  <summary>English translation</summary>
-
-- Real ESRGAN is essentially a free analogue of the commercial heavyweight Topaz Gigapixel AI application, the main purpose is to upscale images using neural networks, and thanks to the use of the Vulkan API, performance is always at the highest level as far as the graphics card allows.
-
-</details>
-
 ### - [Stable Diffusion web UI Neuro (v3)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_v3/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3)
 \- NVIDIA/CPU - CUDA - Windows 7/10/11
 - Не умеете рисовать, но очень хочется? Позвольте это сделать приложению Stable Diffusion! Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели... Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
@@ -81,6 +59,34 @@ Take a video and replace the face in it with a face of your choice. You only nee
 
 </details>
 
+## Old Projects
+
+<details>
+  <summary>Waifu2x and Real ESRGAN NCNN</summary>
+
+### - [Waifu2X Neuro](https://github.com/Shedou/Neuro/tree/main/Waifu2X%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/W2XNv2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/W2XNv2)
+\- GPU/CPU - OpenCL API - Windows 7/10/11
+- Waifu2X поможет в обработке изображений, основное назначение это увеличение изображений и подавление шума разной степени при помощи нейронных сетей, наиболее полезно при чистке изображений от артефактов сжатия JPEG.
+
+<details>
+  <summary>English translation</summary>
+
+- Waifu2X will help in image processing, the main purpose is to upscale images and suppress noise of varying strength using neural networks, it is most useful when cleaning images from JPEG compression artifacts.
+
+</details>
+
+### - [Real ESRGAN NCNN Neuro](https://github.com/Shedou/Neuro/tree/main/Real%20ESRGAN%20NCNN%20Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/esrgan_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/esrgan_v2)
+\- GPU - Vulkan API - Windows 7/10/11
+- Real ESRGAN по своей сути является свободным аналогом коммерческого тяжеловесного приложения Topaz Gigapixel AI, основное назначение это увеличение изображений при помощи нейронных сетей, а благодаря использованию Vulkan API производительность всегда на высшем уровне насколько позволяет видеокарта.
+
+<details>
+  <summary>English translation</summary>
+
+- Real ESRGAN is essentially a free analogue of the commercial heavyweight Topaz Gigapixel AI application, the main purpose is to upscale images using neural networks, and thanks to the use of the Vulkan API, performance is always at the highest level as far as the graphics card allows.
+
+</details>
+
+</details>
 
 # Other licenses
 Any third party are subject to their own licenses.
