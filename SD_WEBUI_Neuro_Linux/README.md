@@ -74,6 +74,9 @@
 	
   ВНИМАНИЕ! Для работы сборки необходимы: git, python3.11 и python3-venv! (возможен запуск с python3.12)\
   Сборка не проверялась на работоспособность в сторонних дистрибутивах Linux!
+  
+  - Chimbalix Linux:
+  https://github.com/Shedou/Chimbalix
   ___
   
 </details>
