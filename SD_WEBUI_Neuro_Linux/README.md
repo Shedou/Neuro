@@ -43,7 +43,7 @@
 ### [Скачать сборку Stable Diffusion Web UI Neuro Linux (v1)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v1) и распаковать архиватором [7-Zip](https://7-zip.org/).
 
 ## Пакет расширений для SD WebUI (~280 шт., zip архив, ~1.5 ГиБ, 2024-01-16)
-### [Скачать sd-webui-extensions-2024-01-16](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_EXT_1).
+### [Скачать sd-webui-extensions-2024-01-16](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_EXT_1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_EXT_1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_EXT_1).
 
 ## Системные требования
 <details>
