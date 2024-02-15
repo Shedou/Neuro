@@ -12,16 +12,21 @@
 
 Общие для всех изображений параметры генерации:\
 `Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1\
-`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `Optimizations:` xformers
+`Optimizations:` xformers `Size:` 1280x720\
+`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `Driver:` 545.23.08 (cuda_12.3.1_545.23.08_linux.run)\
+`CPU:` Ryzen 7 2700X `RAM:` 64GB `OS:` [Chimbalix 23.1 Alphachi](https://github.com/Shedou/Chimbalix)
 
-|  |  |  |
+| Autumn landscape |  |  |
 |:---|:---|:---|
-|  |  |  |
+| ![00000-2475027556](https://github.com/Shedou/Neuro/assets/19572158/d9514f90-7f3b-49ad-8bde-eeee1b4fed86) |  |  |
 
 <details>
-  <summary>Параметры генерации ""</summary>
+  <summary>Параметры генерации "Autumn landscape"</summary>
   
-  `Promt:` \
+  `Promt:` landscape, autumn, sunset on the horizon, forest in the distance, sand road, bushes, green grass, hdr, 4k photo, contrast\
+  `Negative promt:` noise, bad quality, low quality, two suns\
+  `Sampler:` DPM++ 2M Karras `Steps:` 60\
+  `Seed:` 2475027556 `Time taken:` 2 min. 37.2 sec.
   
 </details>
 
