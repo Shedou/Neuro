@@ -51,7 +51,15 @@
 </details>
 
 ## Установка Stable Diffusion web UI Neuro
-### [Скачать сборку Stable Diffusion Web UI Neuro Linux (v1)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v1) и распаковать архиватором [7-Zip](https://7-zip.org/).
+### [Скачать сборку Stable Diffusion Web UI Neuro Linux (v2)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v2) и распаковать архиватором.
+
+<details>
+  <summary>Предыдущие версии</summary>
+  
+  ___
+  [Stable Diffusion Web UI Neuro Linux v1](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v1)
+  ___
+</details>
 
 ## Пакет расширений для SD WebUI (~280 шт., zip архив, ~1.5 ГиБ, 2024-01-16)
 ### [Скачать sd-webui-extensions-2024-01-16](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_EXT_1) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_EXT_1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_EXT_1).
@@ -93,7 +101,11 @@
 </details>
 
 ## Использование
-- **install.sh** (по желанию) - Установить сборку в стандартный каталог portsoft (Program Files), см. системные требования! Так же создаёт ярлыки в меню "Пуск" для всех пользователей, для установки необходимы root права.
+- install.sh (по желанию) - Установить сборку в стандартный каталог portsoft (Program Files), (см. системные требования!). Так же создаёт ярлыки в меню "Пуск" для всех пользователей, для установки необходимы root права.
+- uninstall.sh	Удаляет установленную сборку из системы, появляется в основном каталоге только после установки приложения.
+- download-models-base.sh - Загрузить основной набор моделей для Stable Diffusion из репозиториев, BLIP, Codeformer, ESRGAN, GFPGAN и т.д. (примерно 4.6 GiB).
+- download-preprocessors-controlnet.sh - Загрузить набор препроцессоров ControlNet (Annotators) из репозиториев (примерно 10.2 GiB).
+- download-models-controlnet-sd15.sh - Загрузить набор моделей ControlNet из репозиториев (примерно 18.8 GiB).
 
 - start.sh - Обычный запуск.
 - start-cpu.sh - Использовать ЦП для работы (Режим работы без видеокарты).
@@ -119,6 +131,15 @@
 
 sd-extension-steps-animation\
 https://github.com/vladmandic/sd-extension-steps-animation
+
+sd-webui-controlnet\
+https://github.com/Mikubill/sd-webui-controlnet
+
+sd-webui-3d-open-pose-editor\
+https://github.com/nonnonstop/sd-webui-3d-open-pose-editor
+
+multidiffusion-upscaler-for-automatic1111\
+https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
 
 stable-diffusion-webui-images-browser\
 https://github.com/AlUlkesh/stable-diffusion-webui-images-browser
