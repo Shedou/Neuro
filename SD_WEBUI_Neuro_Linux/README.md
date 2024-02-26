@@ -12,30 +12,41 @@
 
 Общие для всех изображений параметры генерации:\
 `Model:` ChiMix_SF1-NED-AOM3_1 `Model hash:` 08c8bbb6f1\
-`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `Optimizations:` xformers
+`VAE:` vae-ft-mse-840000-ema-pruned.ckpt `Optimizations:` xformers `Size:` 1280x720\
+`GPU:` MSI GeForce GTX 1070 AERO OC 8GB `Driver:` 545.23.08 (cuda_12.3.1_545.23.08_linux.run)\
+`CPU:` Ryzen 7 2700X `RAM:` 64GB `OS:` [Chimbalix 23.1 Alphachi](https://github.com/Shedou/Chimbalix)
 
-|  |  |  |
+| Autumn landscape | City in the background | Penguin |
 |:---|:---|:---|
-|  |  |  |
+| ![00000-2475027556](https://github.com/Shedou/Neuro/assets/19572158/d9514f90-7f3b-49ad-8bde-eeee1b4fed86) | ![00004-542172519](https://github.com/Shedou/Neuro/assets/19572158/3863873f-b43b-4051-8180-c26273867399) | ![00005-2984056617](https://github.com/Shedou/Neuro/assets/19572158/7874b789-998b-4f5a-889a-a9fb5deb026c) |
 
 <details>
-  <summary>Параметры генерации ""</summary>
+  <summary>Параметры генерации "Autumn landscape"</summary>
   
-  `Promt:` \
+  `Promt:` landscape, autumn, sunset on the horizon, forest in the distance, sand road, bushes, green grass, hdr, 4k photo, contrast\
+  `Negative promt:` noise, bad quality, low quality, two suns\
+  `Sampler:` DPM++ 2M Karras `Steps:` 60\
+  `Seed:` 2475027556 `Time taken:` 2 min. 37.2 sec.
   
 </details>
 
 <details>
-  <summary>Параметры генерации ""</summary>
+  <summary>Параметры генерации "City in the background"</summary>
   
-  `Promt:` \
+  `Promt:` 1girl, detailed, purple eyes, black jacket, white hair, volumetric lighting, city in the background, contrast, depth of field, standing, sunny, sky clouds\
+  `Negative promt:` bad quality, bad anatomy, bad geometry, weird fingers, fused fingers, deformed hands, deformed fingers, open mouth, fused eyes, text, watermark, bow tie in hair, canvas, 2girls\
+  `Sampler:` DPM++ 3M SDE Karras `Steps:` 70\
+  `Seed:` 542172519 `Time taken:` 3 min. 19.6 sec.
   
 </details>
 
 <details>
-  <summary>Параметры генерации ""</summary>
+  <summary>Параметры генерации "Penguin"</summary>
   
-  `Promt:` \
+  `Promt:` penguin, snow, solo\
+  `Negative promt:` bad quality, bad anatomy, bad geometry, text, watermark\
+  `Sampler:` DPM++ 2M Karras `Steps:` 80\
+  `Seed:` 2984056617 `Time taken:` 3 min. 32.7 sec.
   
 </details>
 
