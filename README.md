@@ -20,7 +20,7 @@
 
 </details>
 
-### - [Stable Diffusion web UI Neuro Linux (v1)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_Linux) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_Linux_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v1)
+### - [Stable Diffusion web UI Neuro Linux (v2)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_Linux) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_Linux_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v2)
 \- NVIDIA/CPU - CUDA - Linux Chimbalix 23.1 / 24.1 Alphachi
 - Linux вариант сборки Stable Diffusion WebUI.
 
