@@ -8,13 +8,13 @@ Encoding=UTF-8
 NoDisplay=false
 Hidden=false
 
-Name=AI - SD WebUI Neuro Linux v1 (Xformers)
+Name=AI - SD WebUI Neuro Linux v2
 Comment=Text to Image AI Generator
-GenericName=Stable Diffusion WebUI Neuro Linux v1 (Xformers)
+GenericName=Stable Diffusion WebUI Neuro Linux v2
 
-Icon=PATH_TO_FOLDER/icons/icon-192-x.png
-Exec=terminal -e "PATH_TO_FOLDER/start-xformers.sh"
-TryExec=PATH_TO_FOLDER/start-xformers.sh
+Icon=PATH_TO_FOLDER/icons/icon-192.png
+Exec=terminal -e "PATH_TO_FOLDER/start.sh"
+TryExec=PATH_TO_FOLDER/start.sh
 Path=
 #StartupWMClass=
 

@@ -3,12 +3,13 @@
 # SD WebUI Neuro Linux v1 start file
 
 # Settings:
-export COMMANDLINE_ARGS="--skip-prepare-environment --skip-version-check --no-download-sd-model --skip-torch-cuda-test --xformers"
+export COMMANDLINE_ARGS="--skip-prepare-environment --skip-version-check --no-download-sd-model --skip-torch-cuda-test --xformers --medvram"
 
 
 # Don't change!
 path_to_script="$( dirname "$(readlink -f "$0")")"
 webui_folder="webui170"
+export TORCH_HOME="$path_to_script/$webui_folder/models/ControlNet-fking_torch_cache_dependencies"
 path_to_venv="$path_to_script/$webui_folder/venv"
 
 

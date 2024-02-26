@@ -8,13 +8,13 @@ Encoding=UTF-8
 NoDisplay=false
 Hidden=false
 
-Name=AI - SD WebUI Neuro Linux v1 (CPU Only)
-Comment=Text to Image AI Generator
-GenericName=Stable Diffusion WebUI Neuro Linux v1 (CPU Only)
+Name=AI - SD WebUI Neuro Linux v2 (Folder)
+Comment=Text to Image AI Generator Folder
+GenericName=Stable Diffusion WebUI Neuro Linux v2 Folder
 
-Icon=PATH_TO_FOLDER/icons/icon-192-cpu.png
-Exec=terminal -e "PATH_TO_FOLDER/start-cpu.sh"
-TryExec=PATH_TO_FOLDER/start-cpu.sh
+Icon=PATH_TO_FOLDER/icons/icon-192-folder.png
+Exec=thunar "PATH_TO_FOLDER"
+TryExec=PATH_TO_FOLDER/start.sh
 Path=
 #StartupWMClass=
 
