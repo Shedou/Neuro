@@ -20,14 +20,14 @@
 
 </details>
 
-### - [Stable Diffusion web UI Neuro Linux (v2)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_Linux) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_Linux_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v2)
+### - [Stable Diffusion web UI Neuro Linux (v3)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_Linux) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_Linux_v3/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v3)
 \- NVIDIA/CPU - CUDA - Linux Chimbalix
-- Linux вариант сборки Stable Diffusion WebUI.
+- Linux вариант сборки Stable Diffusion Web UI.
 
 <details>
   <summary>English translation</summary>
 
-- Linux version of the Stable Diffusion WebUI build.
+- Linux version of the Stable Diffusion Web UI build.
 
 </details>
 
