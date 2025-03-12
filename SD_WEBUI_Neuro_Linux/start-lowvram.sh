@@ -17,4 +17,4 @@ export XDG_STATE_HOME="$Path_To_Script/userdata/.local/state"
 export XDG_CONFIG_HOME="$Path_To_Script/userdata/.config"
 export XDG_CACHE_HOME="$Path_To_Script/userdata/.cache"
 
-"$Path_To_Script/program/start-cpu.sh" "$@"
+"$Path_To_Script/program/start-lowvram.sh" "$@"
