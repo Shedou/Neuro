@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+# LICENSE for this script is at the end of this file
+#
+# The launcher is designed to simplify the launch of Linux applications and move the home directory
+# to avoid conflicts between different versions of the same application.
+
+Path_To_Script="$( dirname "$(readlink -f "$0")")"
+
+# Allows you to avoid configuration file conflicts when installing different versions of the same application.
+MoveHomeDir="true"		# Sets the value of "HOME" to the value of the "UserDataFolder" variable
+MoveConfigsDir="true"	# May not work without moving the "HOME" directory.
+UseExtraLibs="false"	# Allows you to add additional libraries to the "libs" directory.
+
+## THESE VARIABLES NEED TO BE CONFIGURED ##
+ExtraLibsFolder="$Path_To_Script/libs"     # Extra libraries
+UserDataFolder="$Path_To_Script/userdata"  # User data folder for the program
+ProgramFolder="$Path_To_Script/FP-Neuro"    # Path to the program directory
+
+ExecutableFolder="$ProgramFolder"          # Path to the directory with executable files
+Executable="$ExecutableFolder/Start-F1.sh" # Main executable file
+
+### Space for additional variables and actions ###
+
+export SOME_IMPORTANT_VARIABLE="example"
+
+### Space for additional variables and actions ###
+
+export PATH="$ExecutableFolder:$PATH" # Use ":" for separation
+
+if [ "$MoveHomeDir" == "true" ]; then export HOME="$UserDataFolder"; fi
+if [ "$MoveConfigsDir" == "true" ]; then
+	export HOMECONFIGS="$UserDataFolder"
+	export XDG_DATA_HOME="$HOMECONFIGS/.local/share"
+	export XDG_STATE_HOME="$HOMECONFIGS/.local/state"
+	export XDG_CONFIG_HOME="$HOMECONFIGS/.config"
+	export XDG_CACHE_HOME="$HOMECONFIGS/.cache"
+fi
+
+if [ "$UseExtraLibs" == "true" ]; then
+	if [ -z "$LD_LIBRARY_PATH" ];
+		then export LD_LIBRARY_PATH="$ExtraLibsFolder"
+		else export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$ExtraLibsFolder" # Use ":" for separation
+	fi
+fi
+
+if [ -e "$Executable" ]; then
+	if ! [[ -x "$Executable" ]]; then if ! chmod +x "$Executable"; then echo "chmod error"; fi; fi
+	cd "$ExecutableFolder" || exit
+	"$Executable" "$@"
+	exit_code="$?"
+else
+	exit_code="Executable not found..."
+fi
+
+if [[ "$exit_code" != "0" ]]; then
+	StringMessage="bash -c 'echo \"-\"; echo \"$Executable\"; echo \"-\"; echo \"WARNING! EXIT CODE - $exit_code\"; echo \"The program has terminated incorrectly!\"; echo \"Is the program incompatible with the current OS?\"; echo \"Does the program contain errors?\"; read pause'"
+	
+	export PATH="/bin:/usr/bin:$PATH"
+	export LD_LIBRARY_PATH=""
+	
+	terminal_executable="x-terminal-emulator"
+	if ! type "x-terminal-emulator" &> /dev/null; then
+		if type "xfce4-terminal" &> /dev/null; then terminal_executable="xfce4-terminal"
+		elif type "konsole" &> /dev/null; then terminal_executable="konsole"
+		elif type "gnome-terminal" &> /dev/null; then terminal_executable="gnome-terminal"
+		elif type "xterm" &> /dev/null; then terminal_executable="xterm"
+		elif type "uxterm" &> /dev/null; then terminal_executable="uxterm"; fi
+	fi
+	
+	$terminal_executable -e "$StringMessage"
+fi
+
+# MIT License
+#
+# Copyright (c) 2025 Chimbal
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
