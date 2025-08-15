@@ -20,6 +20,17 @@
 
 </details>
 
+### - [FramePack Neuro](https://github.com/Shedou/Neuro/tree/main/FramePack-Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/framepack_neuro/total.svg)](https://github.com/Shedou/Neuro/releases/tag/framepack_neuro)
+\- NVIDIA - CUDA - Linux Chimbalix
+- Данная нейронная сеть предназначена для генерации видео из изображения.
+
+<details>
+  <summary>English translation</summary>
+
+- This neural network is designed to generate video from an image.
+
+</details>
+
 ### - [Stable Diffusion web UI Neuro Linux (v3)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_Linux) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_Linux_v3/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v3)
 \- NVIDIA/CPU - CUDA - Linux Chimbalix
 - Linux вариант сборки Stable Diffusion Web UI.
