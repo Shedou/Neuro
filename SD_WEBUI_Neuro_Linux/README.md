@@ -11,22 +11,33 @@
 ### Примеры работы (SD WebUI Neuro Linux v3, не заполнено):
 
 Общие для всех изображений параметры генерации:\
-`Model:`  `Model hash:` \
-`VAE:`  `Optimizations:`  `Size:` \
-`GPU:`  `Driver:` \
-`CPU:`  `RAM:`  `OS:`
+`Optimizations: Xformers, PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True`\
+`GPU: RTX 3060 Mobile 6GB` `Driver: NVIDIA 570.169` \
+`Size: 1280x720` `CPU: i7-10875H` `RAM: 64GB` `OS: Chimbalix 24.8`
 
-| | | |
-|:---|:---|:---|
-| | | |
+| art deco style | anime artwork |
+|:---|:---|
+| ![00006-2055587943-q60](https://github.com/user-attachments/assets/af6fd8d5-3ec0-45af-82e9-fe4151f09528) | ![00026-2040292386-q60](https://github.com/user-attachments/assets/0d5d04c9-82d7-4c00-9595-ae9e91d8a624) |
 
 <details>
-  <summary>Параметры генерации "не заполнено"</summary>
+  <summary>Параметры генерации "art deco style"</summary>
+
+  `- Model: sdxlYamersRealistic5_v5Rundiffusion`  `Model hash: f73b5c5c60` \
+  `- Promt: art deco style {girl, green eyes, blonde fluffy hairs, realistic, detailed, volumetric lighting, photo realistic, upper body} . geometric shapes, bold colors, luxurious, elegant, decorative, symmetrical, ornate, detailed, straight neat lines, rich textures in oriental style, portrait` \
+  `- Negative promt: ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, modernist, minimalist, low quality, worst quality, cross-eyed, bad proportions, fused fingers, bad eyeballs, artifacts, grayscale, bad geometry, bad face, error` \
+  `- Sampler: DPM++ 3M SDE` `Steps: 100` `CFG scale: 8` \
+  `- Seed: 2055587943` `Time taken: 1 min. 20.4 sec.`
   
-  `Promt:` \
-  `Negative promt:` \
-  `Sampler:` `Steps:` \
-  `Seed:`  `Time taken:`
+</details>
+
+<details>
+  <summary>Параметры генерации "anime artwork"</summary>
+
+  `- Model: sdxlYamersRealistic5_v5Rundiffusion`  `Model hash: f73b5c5c60` \
+  `- Promt: anime artwork {girl, gray eyes, black rough hairs, realistic, detailed, volumetric lighting, full body photo, standing, black pants, black long sleeve ruffle shirt}. anime style, key visual, vibrant, studio anime, highly detailed, straight neat lines, rich textures in desert style` \
+  `- Negative promt: photo, deformed, black and white, realism, disfigured, low contrast, low quality, worst quality, cross-eyed, bad proportions, fused fingers, bad eyeballs, artifacts, grayscale, bad geometry, bad face, error` \
+  `- Sampler: DPM++ 2M SDE Heun` `Steps: 100` `CFG scale: 9` \
+  `- Seed: 2040292386` `Time taken: 1 min. 28.1 sec.`
   
 </details>
 
@@ -97,7 +108,11 @@
 - start-cpu.sh - Использовать ЦП для работы
 
 ## Полезное для Stable Diffusion
-В данном разделе будут оставлены ссылки на полезные материалы для Stable Diffusion.
+Переменная рабочего окружения PYTORCH_CUDA_ALLOC_CONF позволяет снизить расход памяти видеокарты без использования режима LowVRAM и рекомендуется к использованию.\
+Добавить в файл `start-xformers-medvram.sh` и `start-medvram.sh` строку:
+- `export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True`
+
+
 ### Где можно найти модели:
 **[https://huggingface.co/models](https://huggingface.co/models)**\
 **[https://civitai.com/](https://civitai.com/)**.
