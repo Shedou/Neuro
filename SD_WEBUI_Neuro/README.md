@@ -114,8 +114,8 @@
 ## Полезное для Stable Diffusion
 В данном разделе будут оставлены ссылки на полезные материалы для Stable Diffusion.
 ### Где можно найти разнообразные модели:
-**[https://huggingface.co/models](https://huggingface.co/models)** (необходима регистрация).\
-**[https://civitai.com/](https://civitai.com/)** (модели доступны без регистрации).
+**[https://huggingface.co/models](https://huggingface.co/models)**\
+**[https://civitai.com/](https://civitai.com/)**
 
 ### Тема на форуме 4PDA с разными полезными материалами и информацией:
 **[https://4pda.to/forum/index.php?showtopic=1064573](https://4pda.to/forum/index.php?showtopic=1064573)**
