@@ -7,7 +7,7 @@
 Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели...
 Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
 
-### Примеры работы (SD WebUI Neuro V3):
+### Примеры работы (SD WebUI Neuro v3):
 
 Общие для всех изображений параметры генерации:\
 `Size:` 640x360 `Hires upscale:` 2x (1280x720) `Hires upscaler:` R-ESRGAN 2x+\
@@ -46,22 +46,18 @@
 </details>
 
 ## Установка Stable Diffusion web UI Neuro
-### [Скачать сборку Stable Diffusion web UI Neuro (v3)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3) и распаковать архиватором [7-Zip](https://7-zip.org/).
+### [Скачать сборку Stable Diffusion web UI Neuro (v4)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v4), распаковать архиватором [7-Zip](https://7-zip.org/), установить желаемые модели и использовать.
 
-**Для пользователей Windows 7 будет полезен патч исправляющий ошибки и устанавливающий подходящую версию cudart.\
-[Скачать патч Stable Diffusion web UI Neuro v3 - Windows 7 Patch](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3_Patch)**
 <details>
-  <summary>Что нового в версии v3:</summary>
+  <summary>Что нового в версии v4</summary>
   
- - За основу взят WebUI версии 1.3.2 (2023-06-05).
+ - За основу взят WebUI версии 1.10.1 (SD/SDXL).
 
- - Добавллено расширение "stable-diffusion-webui-images-browser".
-
- - xformers (для видеокарт GTX 1000 серии и новее).
-
- - В файле "webui.py" добавлен код необходимый для автоматического запуска Firefox (строка #11, строка #415-423).
+ - Исправлена ошибка в файле: "webui1101\extensions-builtin\LDSR\ldsr_model_arch.py".
 
  - Проведена чистка, удалены файлы и папки которые не использовались явным образом при работе сборки (подробности см. в файле ReadMe).
+
+ - Прочие оптимизации и доработки.
 
 </details>
 
@@ -69,6 +65,8 @@
   <summary>Предыдущие версии</summary>
   
   ___
+  [Stable Diffusion web UI Neuro v3](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3)
+  
   [Stable Diffusion web UI Neuro v2](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v2)
   
   [Stable Diffusion web UI Neuro v1](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v1)
@@ -80,52 +78,37 @@
   <summary>Системные требования</summary>
   
   ___
-  **Минимальные системные требования:**\
-  ОС: 64 разрядная Microsoft Windows 7* / 10 / 11.\
-  ЦП: 64 разрядный процессор, 2 ядра.\
-  ОЗУ: 16 ГБ и больше.\
-  Видеокарта: GeForce GTX 700 серии и новее (см. список поддерживаемых видеокарт в файле "ReadMe! Neuro.txt").\
-  Видеопамять: 2 ГБ и больше.
+  Сборка Stable Diffusion web UI Neuro v4 проверялась с видеокартами:
+  - GeForce GT 1030 2GB (R5 3500X, 32GB RAM) - оптимально для моделей SD в разрешении до 768x768.
+  - GeForce GTX 1650 Mobile 4GB (i5-10300H, 8GB) - оптимально для SD в разрешении до 1024х1024. 8 ГБ системной ОЗУ снижали эффективнось работы.
+  - GeForce RTX 3060 Mobile 6GB (i7-10875H, 64GB) - оптимально для SD/SDXL в разрешении до 1920x1200.
   
-  **Системные требования (Режим работы без видеокарты):**\
-  ОС: 64 разрядная Microsoft Windows 7* / 10 / 11.\
-  ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
-  ОЗУ: 24 ГБ и больше.
-  
-  **Рекомендуемые системные требования:**\
-  ОС: 64 разрядная Microsoft Windows 7* / 10 / 11.\
-  ЦП: AMD Ryzen 7 2700 / Intel Core i7-9700 или лучше.\
-  ОЗУ: 64 ГБ.\
-  Видеокарта: GeForce GTX 1070 или лучше.\
-  Видеопамять: 8 ГБ и больше.
-  
-  \* - Для работы нужно применить патч исправляющий ошибки и устанавливающий подходящую для Windows 7 версию cudart.
   ___
-  
-</details>
+  - **Минимальные системные требования:**\
+  ОС: 64 разрядная Microsoft Windows 10 / 11\
+  ЦП: 64 разрядный процессор, 2 ядра\
+  ОЗУ: 8 ГБ\
+  Видеокарта: GeForce GTX 900 серии и новее*\
+  Видеопамять: 2 ГБ\
+  Браузер: Microsoft Edge или лучше\
+  \* - Сборка не тестировалась на видеокартах серии GTX 900 на момент создания.
 
-## Использование
-- **Start WebUI CUDA.bat** - Обычный запуск.
-- Start WebUI CUDA CPU.bat - Использовать ЦП для работы (Режим работы без видеокарты).
-- **Start WebUI CUDA XFormers.bat** - Использовать xformers, экономит память видеокарты, может повысить производительность, для видеокарт начиная с GTX 1000 серии.
-
-<details>
-  <summary>Другие варианты запуска</summary>
+  - **Рекомендуемые системные требования:**\
+  ОС: 64 разрядная Microsoft Windows 10 / 11\
+  ЦП: AMD Ryzen 7 5700 / Intel Core i7-9700 или лучше\
+  ОЗУ: 32-64 ГБ\
+  Видеокарта: GeForce RTX 3060 или лучше\
+  Видеопамять: 6 ГБ и больше*\
+  Браузер: Microsoft Edge или лучше\
+  \* - Для полного функционала без компромиссов может понадобится 12 ГБ и больше.
   
+  - **Системные требования (Режим работы без видеокарты):**\
+  ОС: 64 разрядная Microsoft Windows 10 / 11\
+  ЦП: AMD Ryzen 7 3700 / Intel Core i7-6700 или лучше\
+  ОЗУ: 24-32 ГБ\
+  Браузер: Microsoft Edge или лучше
   ___
-  - Start WebUI CUDA Force XFormers.bat - Принудительно использовать xformers, не факт что это нужно.
-  - WebUI CUDA LowVRAM.bat
   
-  Режим низкого потребления памяти на видеокарте, полезно для видеокарт с 2-3 ГБ памяти, снижает скорость работы.
-  
-  - WebUI CUDA NoFP16.bat
-  
-  Запрет на работу с низкой точностью FP16, позволит работать устаревшим видеокартам, увеличивает расход памяти.
-  
-  - WebUI CUDA LowVRAM NoFP16.bat
-  
-  Комбинация двух предыдущих вариантов.
-  ___
 </details>
 
 ## Полезное для Stable Diffusion
@@ -142,24 +125,9 @@
 ## Блог Overclockers
 ### [overclockers.ru/blog/Hard-Workshop](https://overclockers.ru/blog/Hard-Workshop)
 ## Прочее
-Модель ChiMix_SF1-NED-AOM3_1 основана на AOM3-r34-SF1-pruned, neverendingDreamNED_bakedVae и возможно AOM3_orangemixs, пропорции неизвестны.
 
 Python:\
 https://github.com/adang1345/PythonWin7
 
 ffmpeg-6.0-full_build-shared:\
 https://www.gyan.dev/ffmpeg/builds/
-
-Mozilla Firefox:\
-https://www.mozilla.org/
-
-**Дополнения в составе сборки:**
-
-multidiffusion-upscaler-for-automatic1111\
-https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
-
-sd-extension-steps-animation\
-https://github.com/vladmandic/sd-extension-steps-animation
-
-stable-diffusion-webui-images-browser\
-https://github.com/AlUlkesh/stable-diffusion-webui-images-browser
