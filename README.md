@@ -42,8 +42,8 @@
 
 </details>
 
-### - [Stable Diffusion web UI Neuro (v3)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_v3/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v3)
-\- NVIDIA/CPU - CUDA - Windows 7/10/11
+### - [Stable Diffusion web UI Neuro (v4)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_v4/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v4)
+\- NVIDIA/CPU - CUDA - Windows 10/11
 - Не умеете рисовать, но очень хочется? Позвольте это сделать приложению Stable Diffusion! Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели... Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
 
 <details>
