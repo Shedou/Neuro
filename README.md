@@ -21,7 +21,7 @@
 </details>
 
 ### - [FramePack Neuro](https://github.com/Shedou/Neuro/tree/main/FramePack-Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/framepack_neuro/total.svg)](https://github.com/Shedou/Neuro/releases/tag/framepack_neuro)
-\- NVIDIA - CUDA - Linux Chimbalix
+\- NVIDIA - CUDA - Video - Linux Chimbalix
 - Данная нейронная сеть предназначена для генерации видео из изображения.
 
 <details>
@@ -32,7 +32,7 @@
 </details>
 
 ### - [Stable Diffusion web UI Neuro Linux (v3)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro_Linux) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_Linux_v3/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_Linux_v3)
-\- NVIDIA/CPU - CUDA - Linux Chimbalix
+\- NVIDIA/CPU - CUDA - SD/SDXL - Linux Chimbalix
 - Linux вариант сборки Stable Diffusion Web UI.
 
 <details>
@@ -43,7 +43,7 @@
 </details>
 
 ### - [Stable Diffusion web UI Neuro (v4)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_v4/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_v4)
-\- NVIDIA/CPU - CUDA - Windows 10/11
+\- NVIDIA/CPU - CUDA - SD/SDXL - Windows 10/11
 - Не умеете рисовать, но очень хочется? Позвольте это сделать приложению Stable Diffusion! Нейросеть нарисует всё что пожелаете, конечно же в пределах возможностей используемой модели... Для генерации изображения достаточно написать текст в поле ввода и нажать кнопку "Generate", но есть один нюанс, нейросеть понимает только слова на английском языке, впрочем, никто не запрещает использовать переводчик отдельно если с английским языком всё очень плохо...
 
 <details>
@@ -54,7 +54,7 @@
 </details>
 
 ### - [Stable Diffusion web UI DirectML Neuro (v2)](https://github.com/Shedou/Neuro/tree/main/SD_WEBUI_DML_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/SD_WEBUI_DML_v2/total.svg)](https://github.com/Shedou/Neuro/releases/tag/SD_WEBUI_DML_v2)
-\- AMD/NVIDIA/CPU - DirectML - Windows 10/11
+\- AMD/NVIDIA/CPU - DirectML - SD - Windows 10/11
 - DirectML вариант приложения Stable Diffusion, подходит для работы с современными видеокартами AMD, хотя работает медленнее варианта для NVIDIA, но это лучше, чем ничего.
 
 <details>
@@ -65,7 +65,7 @@
 </details>
 
 ### - [roop Neuro](https://github.com/Shedou/Neuro/tree/main/roop_Neuro) - [![Github Releases](https://img.shields.io/github/downloads/Shedou/Neuro/roop_v1/total.svg)](https://github.com/Shedou/Neuro/releases/tag/roop_v1)
-\- AMD/NVIDIA/CPU - DirectML - Windows 10/11
+\- AMD/NVIDIA/CPU - DirectML - Video - Windows 10/11
 - Предварительно скомпилированная, портативная сборка приложения roop, данная нейронная сеть позволяет заменять лица на видеозаписях таким образом создавая дипфейки (Deep Fakes), практической пользы я не вижу от данной нейронной сети, но повеселиться в кругу друзей вполне возможно.
 
 - Оригинальное описание:\
